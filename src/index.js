@@ -14,7 +14,7 @@ import * as serviceWorker from './serviceWorker';
 //    import App from './reduxThunk/App'
 
 // 4. redux-saga 部分------------
-//    import App from './reduxSaga/App'
+  //  import App from './reduxSaga/App'
 
 // 5. react-router 基本使用部分-----------
 //    import App from './reactRouter/App'
@@ -23,7 +23,10 @@ import * as serviceWorker from './serviceWorker';
 //    import App from './routeConfig/App'
 
 // 7. react 基础部分
-import App from './reactBase/App'
+// import App from './reactBase/App'
+
+// 8. react 其他部分 Hook 顶层API
+import App from './reactOther/App'
 
 ReactDOM.render(
   <React.StrictMode>

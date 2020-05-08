@@ -13,9 +13,10 @@ export default class DrawComp extends Component {
     
     render() {
 
-        // if else 只能在外面定义
+        // if else 只能在外面定义,不能在return里面定义
         let button
         if(this.state.showBtn) {
+            // 将jsx定义成变量 在return中直接引用
             button = <button onClick={() => this.setState({isShow: !this.state.isShow})}>切换isShow</button>
         }
         
